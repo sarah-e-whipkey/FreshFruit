@@ -1,0 +1,15 @@
+﻿<div>
+    <form ng-submit="controller.addFruit()">
+        <label>Fruit Name:</label>
+        <input type="text" ng-model="controller.name" /> <br />
+
+        <label>Fruit Color:</label>
+        <input type="text" ng-model="controller.color" /><br />
+
+        <label>Is the fruit fresh?:</label>
+        <input type="radio" ng-model="controller.isFresh" value="True"/> Fresh
+        <input type="radio" ng-model="controller.isFresh" value="False"/>Not Fresh <br />
+
+        <input type="submit" value="Add" />
+    </form>
+</div>
